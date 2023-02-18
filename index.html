@@ -9,11 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-
+    <section class="calc">
+        <div class="calc__container">
+            <h1 class="calc__heading">exchange calc</h1>
+            <div class="underline"></div>
+            <div class="calc__container__box">
+                <div class="calc__container__box__text">
+                    <p>you send</p>
+                </div>
+                <div class="calc__container__box__content">
+                    <div class="calc__container__box__content__value">
+                        <input type="text" placeholder="00.00">
+                    </div>
+                    <div class="calc__container__box__content__info">
+                        <span class="fi fi-us"></span>
+                        <p>usd</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calc__container__box">
+                <div class="calc__container__box__text">
+                    <p>they receive</p>
+                </div>
+                <div class="calc__container__box__content">
+                    <div class="calc__container__box__content__value">
+                        <input type="text" placeholder="00.00">
+                    </div>
+                    <div class="calc__container__box__content__info">
+                        <span class="fi fi-pl"></span>
+                        <p>pln</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="calc__info">
+            <p>1 USD = <span>XXX PLN</span></p>
+            <p>no transfer fee</p>
+        </div>
+    </section>
     <script src="./js/main.js"></script>
 </body>
 
