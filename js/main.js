@@ -1,4 +1,4 @@
-const API_URL = 'http://api.nbp.pl/api/exchangerates/rates/a/usd/'
+const API_URL = 'https://api.nbp.pl/api/exchangerates/rates/a/usd/'
 const usdValue = document.querySelector('.usd')
 const plnValue = document.querySelector('.pln')
 const midValue = document.querySelector('.calc__info span')
