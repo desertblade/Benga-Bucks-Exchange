@@ -93,8 +93,26 @@ html {
 		}
 	}
 
+	&__message {
+		display: none;
+		margin-top: 1.5rem;
+		padding: 1rem;
+		border-radius: 1rem;
+		background-color: rgba(239, 35, 60, 0.6);
+		text-align: center;
+
+		&-active {
+			display: block;
+		}
+
+		p {
+			font-size: 1.4rem;
+			@include firstLetter;
+		}
+	}
+
 	&__info {
-		margin-top: 2rem;
+		margin-top: 1rem;
 		text-align: center;
 		font-size: 1.4rem;
 
@@ -145,6 +163,61 @@ html {
 					}
 				}
 			}
+		}
+
+		&__message p,
+		&__info{
+			font-size: 1.8rem;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.calc {
+		display: flex;
+		align-items: center;
+
+		&__container {
+			width: 50rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.calc {
+		&__heading {
+			font-size: 3rem;
+		}
+
+		&__container {
+			&__box {
+				&__text {
+					font-size: 2.1rem;
+				}
+
+				&__content {
+					&__value {
+						input {
+							font-size: 2rem;
+						}
+					}
+
+					&__info {
+						span {
+							transform: scale(2);
+						}
+
+						p {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+
+		&__message p,
+		&__info{
+				font-size: 2rem;
 		}
 	}
 }

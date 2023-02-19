@@ -107,8 +107,25 @@ html {
   font-size: 1.4rem;
   text-transform: uppercase;
 }
+.calc__message {
+  display: none;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(239, 35, 60, 0.6);
+  text-align: center;
+}
+.calc__message-active {
+  display: block;
+}
+.calc__message p {
+  font-size: 1.4rem;
+}
+.calc__message p::first-letter {
+  text-transform: uppercase;
+}
 .calc__info {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   font-size: 1.4rem;
 }
@@ -143,5 +160,42 @@ html {
   }
   .calc__container__box__content__info p {
     font-size: 1.8rem;
+  }
+  .calc__message p, .calc__info {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .calc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .calc__container {
+    width: 50rem;
+  }
+}
+@media (min-width: 992px) {
+  .calc__heading {
+    font-size: 3rem;
+  }
+  .calc__container__box__text {
+    font-size: 2.1rem;
+  }
+  .calc__container__box__content__value input {
+    font-size: 2rem;
+  }
+  .calc__container__box__content__info span {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+  .calc__container__box__content__info p {
+    font-size: 2rem;
+  }
+  .calc__message p, .calc__info {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */

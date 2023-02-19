@@ -24,7 +24,7 @@
                 </div>
                 <div class="calc__container__box__content">
                     <div class="calc__container__box__content__value">
-                        <input type="text" placeholder="00.00">
+                        <input type="text" placeholder="00.00" class="usd">
                     </div>
                     <div class="calc__container__box__content__info">
                         <span class="fi fi-us"></span>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="calc__container__box__content">
                     <div class="calc__container__box__content__value">
-                        <input type="text" placeholder="00.00">
+                        <input type="text" placeholder="00.00" class="pln">
                     </div>
                     <div class="calc__container__box__content__info">
                         <span class="fi fi-pl"></span>
@@ -47,8 +47,11 @@
                 </div>
             </div>
         </div>
+        <div class="calc__message">
+            <p>the entered value must be a number</p>
+        </div>
         <div class="calc__info">
-            <p>1 USD = <span>XXX PLN</span></p>
+            <p>1 USD = <span></span> PLN</p>
             <p>no transfer fee</p>
         </div>
     </section>
