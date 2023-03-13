@@ -1,5 +1,7 @@
 # Description & Running the code
 
-A simple calculator for converting the value of selected currencies, in this case **USD** and **PLN**. It is based on the exchange rate value downloaded from the NBP Web Api.
+A simple calculator for converting the value of selected currencies, in this case **USD** and **Benga Bucks**. The exchange rate is a random value between 1.00-1.20. This is being used as a gag gift, using fake money aka "Benga Bucks".
 
-> Due to the use of github pages, running the code is very easy. To see this solution, just click [here](https://dajk99.github.io/Exchange-Calc/)
+Github page: [here](https://desertblade.github.io/Benga-Bucks-Exchange/)
+
+This is a fork from: https://github.com/Dajk99/Exchange-Calc 

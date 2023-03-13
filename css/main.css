@@ -150,6 +150,7 @@ html {
     margin-bottom: 1rem;
     font-size: 2rem;
   }
+  
   .calc__container__box__content__value input {
     margin-right: 0.5rem;
     font-size: 1.8rem;
@@ -176,6 +177,8 @@ html {
   }
   .calc__container {
     width: 50rem;
+    text-align: center;
+    background-color: lightgrey;
   }
 }
 @media (min-width: 992px) {
