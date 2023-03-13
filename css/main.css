@@ -45,6 +45,8 @@ html {
 .calc__container {
   display: -webkit-box;
   display: -ms-flexbox;
+  text-align: center;
+  background-color: lightgrey;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -177,8 +179,6 @@ html {
   }
   .calc__container {
     width: 50rem;
-    text-align: center;
-    background-color: lightgrey;
   }
 }
 @media (min-width: 992px) {
