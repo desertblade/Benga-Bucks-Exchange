@@ -7,7 +7,7 @@ function getRandomArbitrary(min, max) {
 	return Math.random() * (max - min) + min;
   }
    
-midValue.textContent = getRandomArbitrary(0.3,0.6).toFixed(2)
+midValue.textContent = getRandomArbitrary(3,6).toFixed(2)
   
 
 // inserting a usd value
@@ -16,7 +16,7 @@ const usdExchange = () => {
 		message.classList.add('calc__message-active')
 		bbValue.value = '00.00'
 	} else if (isNaN(usdValue.value) == false) {
-		midValue.textContent = getRandomArbitrary(1,1.2).toFixed(2)
+		midValue.textContent = getRandomArbitrary(3,6).toFixed(2)
 		bbValue.value = (usdValue.value * midValue.textContent).toFixed(2)
 		message.classList.remove('calc__message-active')
 	}
@@ -28,7 +28,7 @@ const bbExchange = () => {
 		message.classList.add('calc__message-active')
 		usdValue.value = '00.00'
 	} else if (isNaN(bbValue.value) == false) {
-		midValue.textContent = getRandomArbitrary(1,1.2).toFixed(2)
+		midValue.textContent = getRandomArbitrary(3,6).toFixed(2)
 		usdValue.value = (bbValue.value / midValue.textContent).toFixed(2)
 		message.classList.remove('calc__message-active')
 	}
