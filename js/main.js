@@ -7,7 +7,7 @@ function getRandomArbitrary(min, max) {
 	return Math.random() * (max - min) + min;
   }
    
-midValue.textContent = getRandomArbitrary(1,1.2).toFixed(2)
+midValue.textContent = getRandomArbitrary(0.3,0.6).toFixed(2)
   
 
 // inserting a usd value
