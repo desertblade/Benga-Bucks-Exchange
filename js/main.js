@@ -8,7 +8,7 @@ function getRandomArbitrary(min, max) {
   }
    
 // midValue.textContent = getRandomArbitrary(0.9,1.1).toFixed(2)
-   midValue.textContent = 1.55
+   midValue.textContent = 0.64516129
 
 // inserting a usd value
 const usdExchange = () => {
